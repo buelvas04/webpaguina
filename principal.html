@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes - Fútbol y Baloncesto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e3a8a;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e90ff;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            background: #007bff;
+            padding: 12px 24px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #0056b3;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        form {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            margin: 20px auto;
+            color: black;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input, textarea, select {
+            background: #e9ecef;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Página de Deportes</h1>
+    </header>
+    
+    <div class="content">
+        <p>Explora contenido sobre fútbol y baloncesto con imágenes, videos, noticias y más.</p>
+        <h2>Enlaces a Secciones</h2>
+        <ul>
+            <li><a href="https://www.fifa.com" target="_blank">⚽ FIFA (Fútbol)</a></li>
+            <li><a href="https://www.nba.com" target="_blank">🏀 NBA (Baloncesto)</a></li>
+            <li><a href="https://www.espn.com" target="_blank">📊 Noticias deportivas</a></li>
+        </ul>
+        <h2>Galería de Imágenes</h2>
+        <p><a href="https://images.app.goo.gl/hCu6B1vDtsKKmEvQ6" target="_blank">Imagen del Trofeo FIFA</a></p>
+        <p><a href="https://images.app.goo.gl/2Wc2kcDRSQojN9BF7" target="_blank">Imagen de Balón de baloncesto</a></p>
+        <h2>Videos</h2>
+        <p><a href="https://www.youtube.com/shorts/7yJhYt1qBLw" target="_blank">Video random CR7</a></p>
+        <p><a href="https://www.youtube.com/shorts/O5BC-YOwzig" target="_blank">Video Baloncesto</a></p>
+        <h2>Formulario de Contacto - ¡Qué te gusta más? ¡Responde!</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="deporte">Deporte Favorito:</label>
+            <select id="deporte" name="deporte">
+                <option value="futbol">Fútbol</option>
+                <option value="baloncesto">Baloncesto</option>
+            </select><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Apuesta a tus Equipos</h2>
+        <ul>
+            <li>
+                <a href="https://betplay.com.co" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcTN9ig44i1QtqtibLNAxm6IPlXvM7crv0xg&s" alt="betplay" width="150">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.wplay.co" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoEDsq8TmEC1TYI2_P7eES3TxbCkaN66JOg&s" alt="wplay" width="150">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.codere.com.co" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZv2UceqgopUHu6yCh8_jx6aCiQGdcEzEJZA&s" alt="codere" width="150">
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
