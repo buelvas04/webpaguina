@@ -134,5 +134,30 @@
             </li>
         </ul>
     </div>
+    <h2>Formulario de Preferencias de Apuestas</h2>
+<form>
+    <label for="nombre_apuesta">Nombre:</label>
+    <input type="text" id="nombre_apuesta" name="nombre_apuesta" required><br>
+
+    <label for="email_apuesta">Email:</label>
+    <input type="email" id="email_apuesta" name="email_apuesta" required><br>
+
+    <label for="apuesta">¿Te gustan las apuestas?</label>
+    <select id="apuesta" name="apuesta">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select><br>
+
+    <label for="casa_apuesta">Casa de apuestas favorita:</label>
+    <select id="casa_apuesta" name="casa_apuesta">
+        <option value="betplay">BetPlay</option>
+        <option value="wplay">WPlay</option>
+        <option value="codere">Codere</option>
+        <option value="otra">Otra</option>
+    </select><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
 </body>
 </html>
